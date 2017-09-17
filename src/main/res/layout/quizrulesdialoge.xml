@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="1: Each Quiz contains 30 multiple choice questions."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="2: You can only choose one option in your Quiz. Either it is correct or wrong."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="3: No Negative Marking."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="4: In Sample MCQs you can practice and improve your knowledge."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="5: Green color shows correct answer."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="6: You have unlimited time for the questions in QUIZ, so solved them with full focus and concentration."/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#858585</color>
+    <color name="colorPrimaryDark">#c0c0c0</color>
+    <color name="colorAccent">#858585</color>
+
+    <color name="text_color">#ffffff</color>
+    <color name="full_line_color">#000000</color>
+    <color name="blue">#04ff00</color>
+
+    <color name="tabsScrollColor">#fdfcfb</color>
+    <color name="tab_inactive">#0212f2</color>
+    <color name="tab_active">#fcfbfb</color>
+    <color name="tabtextcolor">#ffffff</color>
+
+
+    <color name="color_preloader_center">#1417b7</color>
+    <color name="color_preloader_end">#ce0f0f</color>
+    <color name="color_preloader_start">#d1882d</color>
+
+
+</resources>

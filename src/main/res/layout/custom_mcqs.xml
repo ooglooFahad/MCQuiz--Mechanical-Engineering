@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mcqsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/Question_Text"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="@string/a"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            f
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="@string/b"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="@string/c"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="@string/d"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/optA"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:text="@string/option_a"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+                <RadioButton
+                    android:id="@+id/optB"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:text="@string/option_b"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                <RadioButton
+                    android:id="@+id/optC"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:text="@string/option_c"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+                <RadioButton
+                    android:id="@+id/optD"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:checked="false"
+                    android:text="@string/option_d"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:visibility="gone" />
+</LinearLayout>

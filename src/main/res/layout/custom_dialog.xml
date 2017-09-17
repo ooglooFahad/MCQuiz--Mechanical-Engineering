@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rel_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_alignTop="@+id/txtwrong"
+            android:text="Wrong Answers" />
+
+        <TextView
+            android:id="@+id/txtcorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:text="correct" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtwrong"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:text="Correct Answer" />
+
+        <TextView
+            android:id="@+id/txtwrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtcorrect"
+            android:layout_alignStart="@+id/txtcorrect"
+            android:layout_below="@+id/txtcorrect"
+            android:layout_marginTop="3dp"
+            android:text="wrong" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="3dp"
+            android:text="Total Attemp Questions" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtresult"
+
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:text="Not attemped Question" />
+
+        <TextView
+            android:id="@+id/txttotlattmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtwrong"
+            android:layout_alignStart="@+id/txtwrong"
+            android:layout_alignTop="@+id/textView4"
+
+            android:layout_marginTop="3dp"
+            android:text="Attemp" />
+
+        <TextView
+            android:id="@+id/txtnotattem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txttotlattmp"
+            android:layout_alignStart="@+id/txttotlattmp"
+
+            android:layout_below="@+id/txttotlattmp"
+            android:layout_marginTop="3dp"
+            android:text="not attem"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtresult"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:text="Your Total Marks" />
+
+        <TextView
+            android:id="@+id/txtresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtwrong"
+            android:layout_alignStart="@+id/txtwrong"
+            android:layout_below="@+id/txtnotattem"
+            android:layout_marginTop="10dp"
+            android:text="result"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>

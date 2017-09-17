@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_cust_subject"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_mcquiz"
+            android:background="@drawable/round"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/tv_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_cust_subject"
+            android:gravity="center"
+            android:lines="2"
+            android:maxLines="2"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textStyle="bold"
+            android:text="Subject Name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            />
+
+        <TextView
+            android:id="@+id/tv_subjectid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</RelativeLayout>

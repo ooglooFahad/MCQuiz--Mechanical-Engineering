@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MCQuiz- Mechanical Engineering</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6284350165471951/4593955201</string>
+    <string name="int_ad_unit_id">ca-app-pub-6284350165471951/6070688403</string>
+
+    <string name="mcquiz">MCQuiz</string>
+    <string name="option_a">option a</string>
+    <string name="option_b">option b</string>
+    <string name="option_c">option c</string>
+    <string name="option_d">option d</string>
+
+    <string name="submit_quiz">SUBMIT QUIZ</string>
+    <string name="Question_Text">Question Text</string>
+
+    <string name="a">A)</string>
+    <string name="b">B)</string>
+    <string name="c">C)</string>
+    <string name="d">D)</string>
+    <string name="mechanical_engineering">Mechanical Engineering</string>
+
+    <string name="Rate_discription">Please Rate Us On Google Play Store.</string>
+    <string name="rate_now">RATE NOW</string>
+    <string name="rate_later">RATE LATER</string>
+    <string name="rate_never">RATE NEVER</string>
+</resources>
